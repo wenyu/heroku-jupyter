@@ -8,4 +8,11 @@ jupyter nbextensions_configurator enable --user
 jupyter notebook \
 	--no-browser --no-mathjax --ip=* --port $PORT \
 	$JUPYTER_NOTEBOOK_ARGS \
-	notebooks
+	notebooks &
+
+pip install numpy matplotlib Pillow
+
+while true; do
+	curl http://wyzjupyter.herokuapp.com
+	sleep 600;
+done
