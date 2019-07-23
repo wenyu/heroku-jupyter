@@ -12,7 +12,7 @@ jupyter notebook \
 
 pip install numpy matplotlib Pillow
 
-while true; do
-	curl http://wyzjupyter.herokuapp.com
-	sleep 600;
-done
+#while true; do
+#	curl http://wyzjupyter.herokuapp.com
+#	sleep 600;
+#done
